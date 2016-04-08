@@ -1,5 +1,5 @@
-function blue () {
+const blue = () => {
   document.write('blue');
 }
 
-module.exports = blue;
+export default blue

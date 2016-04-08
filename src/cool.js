@@ -1,5 +1,5 @@
-function cool () {
+const cool = () => {
   document.write('Cool');
 }
 
-module.exports = cool;
+export default cool

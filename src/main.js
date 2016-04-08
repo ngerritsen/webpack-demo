@@ -1,5 +1,5 @@
-var cool = require('./cool');
-var blue = require('./blue');
+import cool from './cool';
+import blue from './blue';
 
 cool();
 blue();
