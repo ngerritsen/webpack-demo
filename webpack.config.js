@@ -3,5 +3,13 @@ module.exports = {
   output: {
     path: '.',
     filename: 'bundle.js'
+  },
+  module: {
+    loaders: [
+      {
+        test: /.js$/,
+        loader: 'babel'
+      }
+    ]
   }
 }
